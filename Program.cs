@@ -2,12 +2,6 @@
 // массив из строк, длинна которых меньше либо равно 3 символа
 // "hello", "2", "world", ":=)"
 
-string[] FillArray()
-{
-    string[] array = {"hello", "2", "world", ":=)"};
-    return array;
-}
-
 void PrintArray(string[] collection)
 {
     int count = collection.Length;
